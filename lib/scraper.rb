@@ -32,11 +32,6 @@ def make_courses
     course.description = post.css("p").text
   end
 end
-#end
-#Scraper.new.print_courses
-# end 
-  Scraper.new.get_page
-  
   
   def print_courses
     self.make_courses
